@@ -110,3 +110,35 @@ body{
     z-index:2
 
 }
+
+.about{
+    text-align:center;
+    width:1140px;
+
+    background:#FFF8F3;
+    margin:80px auto;
+    padding: 50px;
+    border-radius:10px;
+}
+
+.about h2{
+    font-size:35px;
+    margin-bottom:10px;
+}
+
+.about p{
+   max-width:700px;
+   margin:0 auto 40px ;
+}
+.info{
+    display:grid;
+    grid-template-columns:repeat(4,1fr)
+}
+.info div{
+    font-size:20px;
+font-weight:bold
+}
+.info div Strong{
+    font-size:20px;
+color:#757575;
+}
