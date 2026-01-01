@@ -1,0 +1,48 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.font-title{
+    font-weight:800;
+    font-size:45px;
+}
+.navbar{
+   display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 80px;
+
+}
+.r{
+    color:#FD6E0A;
+}
+.navbar ul{
+    list-style:none;
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+.navbar a{
+    font-size:20px;
+    text-decoration:none;
+    color:#000;
+}
+.btn{
+    font-weight:700;
+    font-size:20px;
+    background:#FD6E0A;
+    color:#fff;
+    padding:8px 15px;
+    border-radius:5px;
+    cursor: pointer;
+}
