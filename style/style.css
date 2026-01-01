@@ -44,5 +44,69 @@ body{
     color:#fff;
     padding:8px 15px;
     border-radius:5px;
+    border-style: solid;
+   border-color: #ffffff;
     cursor: pointer;
+}
+
+.outline{
+    font-weight:700;
+    font-size:20px;
+    background:none;
+    border:2px solid #FD6E0A;
+    padding:8px 15px;
+    color:#FD6E0A;
+}
+.hero{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:80px;
+     background:#fff8f3;
+
+}
+
+.hero-text{
+    width:50%;
+}
+.hero-text h4{
+    font-weight:600;
+    font-size:45px;
+    margin:10px 0;
+}
+.hero-text h1{
+    font-weight:700;
+    font-size:85px;
+    margin:10px 0;
+}
+.hero-text p{
+   line-height:1.6;
+   color:#666
+}
+.hero-img{
+    width:1036px;
+    height:676px;
+    position:relative;
+}
+.bg-img{
+    position:absolute;
+    top:90px;
+    right:0;
+    width:1036px;
+    height:518px;
+    z-index:1;
+    
+}
+.man-img{
+    position:absolute;
+    bottom:10%;
+    
+    left:70%;
+    transform:translate(-50%);
+    z-index:2;
+    width:548px;
+    /* height:676px; */
+    object-fit:contain;
+    z-index:2
+
 }
